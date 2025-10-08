@@ -1,0 +1,44 @@
+.dropdown {
+  display: flex;
+  gap: 20px;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  gap: 30px;
+}
+.clothing .clothing-1 .clothing-2 {
+  border-right: 1px solid black;
+}
+.women:hover .dropdown-content {
+  display: flex;
+}
+.women {
+  position: relative;
+}
+li {
+  list-style: none;
+  width: 200px;
+}
+.dropdown-content-1 {
+  display: none;
+  position: absolute;
+}
+.about:hover .dropdown-content-1 {
+  display: block;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  height: 600px;
+}
+.container-1 {
+  display: flex;
+  align-items: center;
+  width: 1200px;
+  margin: 0 auto;
+  height: 600px;
+  background: url(vong1.jpg) no-repeat center;
+  background-size: cover;
+}
