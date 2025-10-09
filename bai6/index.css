@@ -42,3 +42,39 @@ li {
   background: url(vong1.jpg) no-repeat center;
   background-size: cover;
 }
+.container-2 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.content {
+  text-align: center;
+}
+.container-3 {
+  text-align: center;
+}
+.container-4 {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  gap: 10px;
+}
+
+.photo-1 {
+  display: flex;
+  align-items: end;
+  padding-left: 20px;
+  width: 50%;
+  color: white;
+  background: url(women.jpg) no-repeat center;
+  background-size: cover;
+}
+.photo-2 {
+  display: flex;
+  align-items: end;
+  padding-left: 20px;
+  width: 50%;
+  background: url(men.jpg) no-repeat center;
+  background-size: cover;
+  color: white;
+}
